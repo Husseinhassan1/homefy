@@ -27,4 +27,4 @@ const Devices = () => {
     </div>
   );
 };
-export default Devices;
+export default Devices; 
