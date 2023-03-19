@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fuzija</title>
+  <style>
+    .left {
+      rotate: -90deg;
+      position: absolute;
+      top: 340px;
+      left: 0;
+    }
+  </style>
+</head>
+<body>
+<center>
+  <h3 id="light-num">45</h3>
+  <input type="range" min="0" max="100" value="45" id="light-intens">
+</center>
+<center >
+  <h3 id="temp-num" class="left">25</h3>
+  <input type="range" min="-10" max="35" value="25" step="0.2" id="temp-intens" class="left">
+  <svg viewBox="-115.497 -100.689 422.279 486.711" width="422.279" height="486.711" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="501.933" y1="53.479" x2="501.933" y2="432.989" id="gradient-0" gradientTransform="matrix(-0.680217, 0.733011, -0.873374, -0.810469, 574.003807, -135.629936)">
+      <stop offset="0" style="stop-color: rgba(239, 239, 239, 1)"/>
+      <stop offset="1" style="stop-color: rgba(188, 188, 188, 1)"/>
+    </linearGradient>
+    <radialGradient gradientUnits="userSpaceOnUse" cx="502.357" cy="236.405" r="21.784" id="gradient-1" gradientTransform="matrix(1, 0, 0, 1, -406.391762, -132.680412)">
+      <stop offset="0" style="stop-color: rgba(255, 255, 255, 1)"/>
+      <stop offset="1" style="stop-color: rgba(204, 204, 204, 1)"/>
+    </radialGradient>
+  </defs>
+  <rect x="-93.892" y="-79.202" width="378.866" height="379.51" rx="35" ry="35" style="stroke: rgb(0, 0, 0); paint-order: fill; fill-rule: nonzero; fill: url(#gradient-0);"/>
+  <g transform="matrix(1, 0, 0, 1, -285.05249, -160.131409)">
+    <g>
+      <path style="stroke: rgb(0, 0, 0); fill: rgb(206, 206, 206);" d="M 190.872 267.364 L 190.431 163.23 L 169.555 169.13 L 169.555 263.98 C 169.555 263.98 178.881 265.461 183.544 266.201 C 185.987 266.589 190.872 267.364 190.872 267.364 Z"/>
+    </g>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, -284.827087, -53.247742)" id="part-temp">
+    <g>
+      <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" d="M 190.872 267.364 L 190.431 163.23 L 169.555 169.13 L 169.555 263.98 C 169.555 263.98 178.881 265.461 183.544 266.201 C 185.987 266.589 190.872 267.364 190.872 267.364 Z"/>
+    </g>
+  </g>
+  <g transform="matrix(-1, 0, 0, -1, 476.336334, 324.711945)">
+    <g>
+      <path style="stroke: rgb(0, 0, 0); fill: rgb(242, 242, 242);" d="M 190.872 267.364 L 190.431 163.23 L 169.555 169.13 L 169.555 263.98 C 169.555 263.98 178.881 265.461 183.544 266.201 C 185.987 266.589 190.872 267.364 190.872 267.364 Z"/>
+    </g>
+  </g>
+  <g transform="matrix(0, -1, 1, 0, -120.331062, 491.630493)" id="part-led">
+    <g>
+      <path style="stroke: rgb(0, 0, 0); fill: rgb(255, 255, 255);" d="M 190.872 267.364 L 190.431 163.23 L 169.555 169.13 L 169.555 263.98 C 169.555 263.98 178.881 265.461 183.544 266.201 C 185.987 266.589 190.872 267.364 190.872 267.364 Z"/>
+    </g>
+  </g>
+  <g transform="matrix(0, 1, -1, 0, 310.417816, -270.244263)" id="part-light">
+    <g>
+      <path style="stroke: rgb(0, 0, 0); fill: rgb(203, 203, 203);" d="M 190.872 267.364 L 190.431 163.23 L 169.555 169.13 L 169.555 263.98 C 169.555 263.98 178.881 265.461 183.544 266.201 C 185.987 266.589 190.872 267.364 190.872 267.364 Z"/>
+    </g>
+  </g>
+  <ellipse style="stroke: rgb(0, 0, 0); fill: url(#gradient-1);" cx="95.254" cy="104.435" rx="21.784" ry="21.784" id="part-pir"/>
+  <path style="stroke: rgb(0, 0, 0); fill: rgb(255, 255, 255);" transform="matrix(0.711275, 0, 0, 0.711275, -505.06134, 41.053547)" d="M 845.406 406 L 847.594 406 L 856.229 420.041 A 27.255 27.255 0 0 1 857.623 420.618 L 873.657 416.796 L 875.204 418.343 L 871.382 434.377 A 27.255 27.255 0 0 1 871.959 435.771 L 886 444.406 L 886 446.594 L 871.959 455.229 A 27.255 27.255 0 0 1 871.382 456.623 L 875.204 472.657 L 873.657 474.204 L 857.623 470.382 A 27.255 27.255 0 0 1 856.229 470.959 L 847.594 485 L 845.406 485 L 836.771 470.959 A 27.255 27.255 0 0 1 835.377 470.382 L 819.343 474.204 L 817.796 472.657 L 821.618 456.623 A 27.255 27.255 0 0 1 821.041 455.229 L 807 446.594 L 807 444.406 L 821.041 435.771 A 27.255 27.255 0 0 1 821.618 434.377 L 817.796 418.343 L 819.343 416.796 L 835.377 420.618 A 27.255 27.255 0 0 1 836.771 420.041 Z M 846.5 445.5 A 0 0 0 0 0 846.5 445.5 A 0 0 0 0 0 846.5 445.5" id="part-led-out" bx:shape="cog 846.5 445.5 0 27.255 39.5 0.859 8 1@8cd009ae"/>
+</svg>
+</center>
+<br><br>
+<center>
+  <div>
+    Wi-Fi:
+    <button id="wifi-btn">Toggle WiFi</button>
+  </div>
+  <div>
+    <input type="text" placeholder="soba" value="lab" id="soba-in">
+    <input type="text" placeholder="id" value="test" id="id-in">
+  </div>
+  <div>
+    <input type="text" placeholder="brocker" value="mqtt://localhost:9001" id="brocker-in">
+    <button id="mqtt-btn">Connect / toggle MQTT</button>
+  </div>
+</center>
+<br><br>
+<center>
+  MQTT data:
+  <div>
+    <textarea id="last-msg"></textarea>
+    <br>
+    Interval: <input type="number" id="interval-in" value="3000"> (ms)
+  </div>
+</center>
+<script src="https://unpkg.com/mqtt@4.0.1/dist/mqtt.min.js"></script>
+
+<script src="./fuzija.js"></script>
+</body>
+</html>
