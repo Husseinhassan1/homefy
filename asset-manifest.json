@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/homefy/static/css/main.bfde4436.css",
+    "main.js": "/homefy/static/js/main.f5698d90.js",
+    "static/media/earthquake.jpg": "/homefy/static/media/earthquake.d979f6110801e4f39b1e.jpg",
+    "static/media/avatar.jpg": "/homefy/static/media/avatar.9d8aa57ef944cfb186d6.jpg",
+    "static/media/avatar3.png": "/homefy/static/media/avatar3.013c6cf3e081328c4626.png",
+    "static/media/product8.jpg": "/homefy/static/media/product8.323ebcbe88240bd8423f.jpg",
+    "static/media/avatar2.jpg": "/homefy/static/media/avatar2.40d668f58c650e364281.jpg",
+    "static/media/product7.jpg": "/homefy/static/media/product7.69341801e3f5245c8020.jpg",
+    "static/media/product6.jpg": "/homefy/static/media/product6.3260a3b510aa12fc136b.jpg",
+    "static/media/avatar4.jpg": "/homefy/static/media/avatar4.f56b774f77caaf2f6921.jpg",
+    "index.html": "/homefy/index.html",
+    "main.bfde4436.css.map": "/homefy/static/css/main.bfde4436.css.map",
+    "main.f5698d90.js.map": "/homefy/static/js/main.f5698d90.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bfde4436.css",
+    "static/js/main.f5698d90.js"
+  ]
+}
